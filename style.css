@@ -1,9 +1,88 @@
-body{
-background-color: rgb(3, 2, 75);
-color: rgb(118, 180, 238);
+body {
+    font-family: Arial, sans-serif;
+    margin: 100;
+    padding: 1000;
+background-color: #2a4474;
+}
+
+p{
 text-align: center;
+background-color: white;
+border-style: solid;
+border-color: rgb(17, 8, 138);
+}
+
+.classe{
+font-family: "algerian";
+}
+
+header{
+background-color: #333;
+color: #fff;
+padding: 30px 0;
+}
+
+nav ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+nav ul li{
+display: inline;
+margin: 0 15px;
+}
+
+main{
+padding: 20px;
+text-align: center;
+}
+
+footer{
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+form{
+display: inline-block;
+text-align: left;
+} 
+
+form label{
+    display: block;
+    margin-top: 10px; 
+}
+button{
+padding: 12px 25px;
+background-color: #0077ff;
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+font-size: 16px;
+transition: 0.3s ease;
+}
+
+button:hover{
+background-color: #ff0066;
+transform: scale(1.2);
+translatey(-10px); rotate(3deg);
+box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+}
+
+header h1{
+    text-align: center;
+}
 
 
-
-
+img2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
